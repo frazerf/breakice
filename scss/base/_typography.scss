@@ -1,0 +1,90 @@
+/*
+--------------------------
+Typography styles
+--------------------------
+*/
+
+.h1 {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 3px;
+  line-height: 35px;
+  @include media-breakpoint-up(md) {
+    font-size: 4rem;
+    letter-spacing: 5px;
+    line-height: 45px;
+  }
+}
+
+.h2 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  line-height: 27px;
+  margin: 0 0 20px 0;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  line-height: 20px;
+  margin: 0 0 20px 0;
+}
+
+h1 {
+  @extend .h1;
+}
+
+h2 {
+  @extend .h2;
+}
+
+h3 {
+  @extend .h3;
+}
+
+// Base heading styles
+h1,
+h2 {
+  font-family: $primary-font-extra-light;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: $primary-font-light;
+  text-transform: uppercase;
+}
+
+// Link styles
+h1,
+h2,
+h3,
+p {
+  a {
+    color: $secondary-color;
+    border-bottom: 1px transparent solid;
+    transition: 200ms ease-in-out all;
+    &:hover {
+      color: $secondary-color;
+      border-bottom: 1px solid $secondary-color;
+      text-decoration: none;
+    }
+  }
+}
+
+// White text
+.t-light {
+  color: white;
+}
+
+// Center text
+.t-center {
+  text-align: center;
+}
+
+// No margin
+.no-margin {
+  margin: 0;
+  &--bottom {
+    margin-bottom: 0;
+  }
+}

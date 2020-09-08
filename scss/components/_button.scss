@@ -1,0 +1,27 @@
+/*
+--------------------------
+Button styles
+--------------------------
+*/
+
+.button {
+  background: $primary-color;
+  padding: 10px 30px;
+  transition: 300ms ease-in-out all;
+  color: white;
+  text-transform: uppercase;
+  &:hover {
+    background: $secondary-color;
+    text-decoration: none;
+    color: white;
+  }
+  // Light button styles
+  &--light {
+    background: white;
+    color: $primary-color;
+    &:hover {
+      background: white;
+      color: $secondary-color;
+    }
+  }
+}

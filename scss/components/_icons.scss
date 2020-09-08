@@ -1,0 +1,16 @@
+/*
+--------------------------
+Icon styles
+--------------------------
+*/
+
+.i-chevron {
+  background-image: url("../images/arrow-white.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 10px);
+}

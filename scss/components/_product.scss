@@ -1,0 +1,42 @@
+/*
+--------------------------
+Product styles
+--------------------------
+*/
+
+.product {
+  padding: 0 40px;
+  &__image {
+    img {
+      width: 80%;
+      margin: 0 auto;
+      transform: scale(1);
+      transition: 300ms ease-in-out all;
+      @include media-breakpoint-up(md) {
+        width: 100%;
+      }
+    }
+  }
+  &__content {
+    text-align: center;
+    text-transform: uppercase;
+    color: $primary-color;
+    z-index: 1;
+    position: relative;
+    transition: 300ms ease-in-out all;
+  }
+  &:focus {
+    outline: 0;
+  }
+  &:hover {
+    text-decoration: none;
+    .product__content {
+      color: $secondary-color;
+    }
+    .product__image {
+      img {
+        transform: scale(1.05);
+      }
+    }
+  }
+}

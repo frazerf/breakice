@@ -1,0 +1,35 @@
+/*
+--------------------------
+Font styles
+--------------------------
+*/
+
+// SofiaProExtraLight
+@font-face {
+  font-family: "SofiaProExtraLight";
+  src: url("../fonts/SofiaProExtraLight.woff2") format("woff2"),
+    url("../fonts/SofiaProExtraLight.woff") format("woff"),
+    url("../fonts/SofiaProExtraLight.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+// SofiaProLight
+@font-face {
+  font-family: "SofiaProLight";
+  src: url("../fonts/SofiaProLight.woff2") format("woff2"),
+    url("../fonts/SofiaProLight.woff") format("woff"),
+    url("../fonts/SofiaProLight.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+// SofiaProRegular
+@font-face {
+  font-family: "SofiaProRegular";
+  src: url("../fonts/SofiaProRegular.woff2") format("woff2"),
+    url("../fonts/SofiaProRegular.woff") format("woff"),
+    url("../fonts/SofiaProRegular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}

@@ -1,0 +1,24 @@
+/*
+--------------------------
+Base styles
+--------------------------
+*/
+
+@import "node_modules/bootstrap/scss/bootstrap"; //Bootstrap
+@import "node_modules/slick-carousel/slick/slick.scss"; //Slick
+@import "node_modules/slick-carousel/slick/slick-theme.scss"; //Slick theme
+
+// Base styles
+@import "base/_normalize.scss";
+@import "base/_vars.scss";
+@import "base/_fonts.scss";
+@import "base/_typography.scss";
+@import "base/_layout.scss";
+
+// Component styles
+@import "components/_header.scss";
+@import "components/_button.scss";
+@import "components/_tiles.scss";
+@import "components/_product.scss";
+@import "components/_carousel.scss";
+@import "components/icons.scss";

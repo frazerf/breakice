@@ -1,0 +1,27 @@
+/*
+--------------------------
+Carousel styles
+--------------------------
+*/
+
+.product-carousel {
+  width: calc(100% - 50px); //100% width minus 50px for carousel arrows
+  margin: 0 auto;
+
+  // Slick arrow overides
+  .slick-arrow {
+    background-size: cover;
+    top: 40%;
+    z-index: 1;
+    &::before {
+      display: none;
+    }
+    &.slick-prev {
+      background-image: url(../images/right-arrow.png);
+      transform: rotate(180deg);
+    }
+    &.slick-next {
+      background-image: url(../images/right-arrow.png);
+    }
+  }
+}
